@@ -14,7 +14,7 @@ Use "A"/"D" to move tetriminos
 Use "W" rotate tetriminos
 
 ## Limitation
-When we update the game screen in figure box, the figure will flash when the game run a long time.
+The figure will flash when the game runs a long time.
 
 ## The folder structure
 ```r
