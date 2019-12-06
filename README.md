@@ -20,7 +20,7 @@ The figure will flash when the game runs a long time.
 ```r
 - Tetris 
   |- inst 
-    |- shinyapp 
+     |- shinyapp 
          |- ui.R
          |- server.R
   |- R
