@@ -15,19 +15,19 @@ Use "W" rotate tetrimino
 
 ## The folder structure
 ```r
-- Tetris \
-  |- inst \
-    |- shinyapp \
-         |- ui.R \
-         |- server.R \
-  |- R \
-     |- shiny.R \
-     |- TableID.R \
-     |- GameAction.R \
-     |- TableAction.R \
-     |- TetrominoAction.R \
-  |- DESCRIPTION \
-  |- ... \
+- Tetris 
+  |- inst 
+    |- shinyapp 
+         |- ui.R
+         |- server.R
+  |- R
+     |- shiny.R
+     |- TableID.R
+     |- GameAction.R 
+     |- TableAction.R 
+     |- TetrominoAction.R 
+  |- DESCRIPTION 
+  |- ... 
 ```
 ## Program process:
 ![Image description](Tetris.png)
