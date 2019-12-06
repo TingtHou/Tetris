@@ -7,3 +7,5 @@ Usage:
 Use "A"/"D" to move tetrimino
 
 Use "W" rotate tetrimino
+
+Program process:
