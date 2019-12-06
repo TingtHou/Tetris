@@ -9,9 +9,9 @@ devtools::install_github("https://github.com/TingtHou/Tetris.git")
 ```r
 launchGame()
 ```
-Use "A"/"D" to move tetrimino
+Use "A"/"D" to move tetriminos
 
-Use "W" rotate tetrimino
+Use "W" rotate tetriminos
 
 ## The folder structure
 ```r
