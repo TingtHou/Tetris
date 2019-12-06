@@ -2,5 +2,5 @@
 Tetris game with shiny app in R
 Usage: 
 > launchGame()
->use "A"/"D" move tetrimino
->use "W" rotate tetrimino
+Use "A"/"D" to move tetrimino
+Use "W" rotate tetrimino
