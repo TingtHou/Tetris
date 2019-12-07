@@ -1,6 +1,7 @@
 # Tetris
 Tetris game with shiny app in R
 
+![Image description](Game.png)
 ## Installation
 ```r
 devtools::install_github("https://github.com/TingtHou/Tetris.git")
