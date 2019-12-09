@@ -1,12 +1,12 @@
-set.seed(200)
 fullTable<-totalMatrix()
 cubes<-GnrCubes()
+Gameon<-FALSE
 server <- function(input, output,session) {
   totalscore<-0
   bgtable <-drawTable()
   active<-reactiveVal(FALSE)
   observeEvent(input$pressedKey,{
-    if (!is.null(input$keyPressed))
+    if (!is.null(input$keyPressed) && Gameon)
     {
       active(FALSE)
       code<-input$keyPressed
@@ -19,10 +19,10 @@ server <- function(input, output,session) {
       {
         cubes<<-MoveRight(cubes,fullTable)
       }
-      # if(code==83) ##Press S
-      # {
-      #   cubes<<-MoveDown(cubes,fullTable)
-      # }
+      if(code==83) ##Press S
+      {
+        cubes<<-MoveDown(cubes,fullTable)
+      }
       if(code==87) ##Press W
       {
         cubes<<-rotate(cubes,fullTable)
@@ -66,6 +66,7 @@ server <- function(input, output,session) {
             if(endGame(fullTable))
             {
               active(FALSE)
+              Gameon<<-FALSE
               output$LevelInfo<-renderText("Game Over")
             }
             cubes<<-GnrCubes()
@@ -89,9 +90,14 @@ server <- function(input, output,session) {
   output$LevelInfo<-renderText("Level 1")
   output$ScorePanel <- renderText({"Score: 0"  })
   observeEvent(input$startGame,{active(TRUE)
+    fullTable<<-totalMatrix()
     cubes<<-GnrCubes()
+    Gameon<<-TRUE
     bgtable <<-drawTable()})
-  observeEvent(input$endGame,{active(FALSE)})
+  observeEvent(input$endGame,{
+    active(FALSE)
+    Gameon<<-FALSE
+    })
   observeEvent(input$reset,{active(FALSE)
     output$LevelInfo<-renderText("Level 1")
     cubes<<-GnrCubes()

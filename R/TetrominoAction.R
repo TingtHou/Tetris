@@ -30,6 +30,38 @@ checkNextBlock_y<-function(cubes,tables)
   return(TRUE)
 }
 
+##' Check if the tetromino should move down 3
+##'
+##' This function will check if the tetromino can move down 3
+##' @title Check tetrominos moving towards
+##' @param cubes a matrix which contains the information where tetromino locates
+##' @param tables a matrix which contains the information of the current backgroup including previous tetrominos location
+##' @author Tingting & Chang
+##' @export
+checkNext3Block_y<-function(cubes,tables,direct)
+{
+  for (i in 1:nrow(cubes))
+  {
+    nexty=cubes[i,"y"]-3
+    nextx=cubes[i,"x"]
+    if(nexty>20)
+      next()
+    if(nexty<1)
+      return(FALSE)
+    if(nextx>10)
+      return(FALSE)
+    if(nextx<1)
+      return(FALSE)
+    ele<-tables[as.character(nexty),as.character(nextx)]
+    if(ele==1)
+    {
+      return(FALSE)
+    }
+
+  }
+  return(TRUE)
+}
+
 ##' Check if the tetromino should move left or right
 ##'
 ##' This function will check if the tetromino can move right ot left.
@@ -99,16 +131,24 @@ MoveRight<-function(cubes,tables)
   cubes
 }
 
-# MoveDown<-function(cubes,tables)
-# {
-#   checkNext_y<-checkNextBlock_y(cubes$cubesID,tables)
-#   if (checkNext_y)
-#   {
-#     cubes$cubesID[,"y"]<<-cubes$cubesID[,"y"]-1
-#     rownames(cubes$cubeMatrix)<-as.numeric(rownames(cubes$cubeMatrix))-1
-#   }
-#   cubes
-# }
+##' Move down the dropping tetromino.
+##'
+##' This function will move  down the dropping tetromino.
+##' @title Move right
+##' @param cubes a matrix which contains the information where tetromino locates
+##' @param tables a matrix which contains the information of the current backgroup including previous tetrominos location
+##' @author Tingting & Chang
+##' @export
+MoveDown<-function(cubes,tables)
+{
+  checkNext_y<-checkNext3Block_y(cubes$cubesID,tables)
+  if (checkNext_y)
+  {
+    cubes$cubesID[,"y"]<-cubes$cubesID[,"y"]-3
+    rownames(cubes$cubeMatrix)<-as.numeric(rownames(cubes$cubeMatrix))-3
+  }
+  cubes
+}
 
 ##' Rotate the dropping tetromino.
 ##'
