@@ -13,5 +13,5 @@ Generate a tetromino.
 This function will a tetromino.
 }
 \author{
-Tingting
+Tingting & Chang
 }

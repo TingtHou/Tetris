@@ -16,5 +16,5 @@ Write a 3x3 matrix as a specific shape tetromino
 This function will write a 3x3 matrix as a specific shape tetromino.
 }
 \author{
-Tingting
+Tingting & Chang
 }

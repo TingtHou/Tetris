@@ -13,5 +13,5 @@ Generate a NA 20x10 matrix for the game
 This function will generate a NA 20x10 matrix for the game.
 }
 \author{
-Tingting
+Tingting & Chang
 }

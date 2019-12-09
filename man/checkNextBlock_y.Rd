@@ -18,5 +18,5 @@ Check if the tetromino should move down
 This function will check if the tetromino can move down
 }
 \author{
-Tingting
+Tingting & Chang
 }

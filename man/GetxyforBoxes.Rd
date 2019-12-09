@@ -18,5 +18,5 @@ Get accuracy location (x, y) for each square for given xid and yid
 This function will get accuracy lcoation (x, y) for each square for given xid and yid.
 }
 \author{
-Tingting
+Tingting & Chang
 }

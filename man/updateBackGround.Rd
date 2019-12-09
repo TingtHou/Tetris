@@ -17,5 +17,5 @@ This function will update the figure when location of tetriminos is change.
 when the location of tetriminos is changed, the variable TableMatrix will change as well.
 }
 \author{
-Tingting
+Tingting & Chang
 }

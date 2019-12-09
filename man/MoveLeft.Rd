@@ -18,5 +18,5 @@ Move the dropping tetromino to the left
 This function will move the dropping tetromino to the left
 }
 \author{
-Tingting
+Tingting & Chang
 }

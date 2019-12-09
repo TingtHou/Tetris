@@ -18,5 +18,5 @@ Check if the tetromino should move left or right
 This function will check if the tetromino can move right ot left.
 }
 \author{
-Tingting
+Tingting & Chang
 }

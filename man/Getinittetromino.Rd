@@ -13,5 +13,5 @@ Generate a random tetromino without any shape
 This function will generate a random tetromino.
 }
 \author{
-Tingting
+Tingting & Chang
 }

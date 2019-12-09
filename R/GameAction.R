@@ -3,7 +3,7 @@
 ##' This function will check if any lines are filled by same color and player will win 10 points
 ##' @title Win points
 ##' @param tables a matrix which contains the information where tetrominos locates
-##' @author Tingting
+##' @author Tingting & Chang
 ##' @export
 GetScore <- function(tables)
 {

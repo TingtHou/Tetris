@@ -4,7 +4,7 @@
 ##' @title Get location
 ##' @param BoxIDx the ID for X-axis
 ##' @param BoxIDy the ID for y-axis
-##' @author Tingting
+##' @author Tingting & Chang
 ##' @export
 GetxyforBoxes<-function(BoxIDx, BoxIDy)
 {
@@ -21,7 +21,7 @@ GetxyforBoxes<-function(BoxIDx, BoxIDy)
 ##'
 ##' This function will generate a random tetromino.
 ##' @title Generate tetromino
-##' @author Tingting
+##' @author Tingting & Chang
 ##' @export
 Getinittetromino<-function()
 {
@@ -40,7 +40,7 @@ Getinittetromino<-function()
 ##' This function will assign a shape to tetromino.
 ##' @title Shape tetromino
 ##' @param tetromino the matrix indicate the location of a tetromino
-##' @author Tingting
+##' @author Tingting & Chang
 ##' @export
 GetType<-function(tetromino)
 {
@@ -57,7 +57,7 @@ GetType<-function(tetromino)
 ##' This function will write a 3x3 matrix as a specific shape tetromino.
 ##' @title Write tetromino information
 ##' @param type a indicate for whichi shape will be chosen.
-##' @author Tingting
+##' @author Tingting & Chang
 ##' @export
 GetTypeMatrix<-function(type)
 {
@@ -97,7 +97,7 @@ GetTypeMatrix<-function(type)
 ##' This function will write a 3x3 matrix as a specific shape tetromino.
 ##' @title Get index of colored square in a tetromino
 ##' @param tetromino the matrix indicate the location of a tetromino
-##' @author Tingting
+##' @author Tingting & Chang
 ##' @export
 GetIndexList<-function(tetromino)
 {
@@ -126,7 +126,7 @@ GetIndexList<-function(tetromino)
 ##'
 ##' This function will generate a NA 20x10 matrix for the game.
 ##' @title Generate backgroud matrix
-##' @author Tingting
+##' @author Tingting & Chang
 ##' @export
 totalMatrix<-function()
 {
@@ -140,7 +140,7 @@ totalMatrix<-function()
 ##'
 ##' This function will a tetromino.
 ##' @title Generate tetromino
-##' @author Tingting
+##' @author Tingting & Chang
 ##' @export
 GnrCubes<-function()
 {

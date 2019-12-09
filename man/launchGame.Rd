@@ -14,5 +14,5 @@ This function will launch the Game with shiny app.
 "W" will rotate the tetrominos, "A" will move the tetrominos to left,  and "D" will move the tetrominos to right
 }
 \author{
-Tingting
+Tingting & Chang
 }

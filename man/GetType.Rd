@@ -16,5 +16,5 @@ assign a shape to tetromino
 This function will assign a shape to tetromino.
 }
 \author{
-Tingting
+Tingting & Chang
 }

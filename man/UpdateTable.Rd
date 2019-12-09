@@ -18,5 +18,5 @@ Update Teris figure when a tetromino is dropping
 This function will update the figure when location of tetriminos is dropping or rotating.
 }
 \author{
-Tingting
+Tingting & Chang
 }

@@ -13,5 +13,5 @@ Backgroup initialization
 This function will draw a blank table in Website before starting game
 }
 \author{
-Tingting
+Tingting & Chang
 }

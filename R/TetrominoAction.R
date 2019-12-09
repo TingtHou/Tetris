@@ -4,7 +4,7 @@
 ##' @title Check tetrominos moving towards
 ##' @param cubes a matrix which contains the information where tetromino locates
 ##' @param tables a matrix which contains the information of the current backgroup including previous tetrominos location
-##' @author Tingting
+##' @author Tingting & Chang
 ##' @export
 checkNextBlock_y<-function(cubes,tables)
 {
@@ -36,7 +36,7 @@ checkNextBlock_y<-function(cubes,tables)
 ##' @title Check tetrominos moving right/left
 ##' @param cubes a matrix which contains the information where tetromino locates
 ##' @param tables a matrix which contains the information of the current backgroup including previous tetrominos location
-##' @author Tingting
+##' @author Tingting & Chang
 ##' @export
 checkNextBlock_x<-function(cubes,tables,direct)
 {
@@ -68,7 +68,7 @@ checkNextBlock_x<-function(cubes,tables,direct)
 ##' @title Move left
 ##' @param cubes a matrix which contains the information where tetromino locates
 ##' @param tables a matrix which contains the information of the current backgroup including previous tetrominos location
-##' @author Tingting
+##' @author Tingting & Chang
 ##' @export
 MoveLeft<-function(cubes,tables)
 {
@@ -86,7 +86,7 @@ MoveLeft<-function(cubes,tables)
 ##' @title Move right
 ##' @param cubes a matrix which contains the information where tetromino locates
 ##' @param tables a matrix which contains the information of the current backgroup including previous tetrominos location
-##' @author Tingting
+##' @author Tingting & Chang
 ##' @export
 MoveRight<-function(cubes,tables)
 {
@@ -115,7 +115,7 @@ MoveRight<-function(cubes,tables)
 ##' This function will rotate the dropping tetromino.
 ##' @title Rotate the dropping tetromino.
 ##' @param cubes a matrix which contains the information where tetromino locates
-##' @author Tingting
+##' @author Tingting & Chang
 ##' @export
 rotate<-function(cubes,tables)
 {

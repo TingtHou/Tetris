@@ -2,7 +2,7 @@
 ##'
 ##' This function will draw a blank table in Website before starting game
 ##' @title Backgroup initialization
-##' @author Tingting
+##' @author Tingting & Chang
 ##' @export
 drawTable<-function()
 {
@@ -27,7 +27,7 @@ drawTable<-function()
 ##' when the location of tetriminos is changed, the variable TableMatrix will change as well.
 ##' @title Update location of tetriminos
 ##' @param TableMatrix the matrix indicates will part should be colored as blue
-##' @author Tingting
+##' @author Tingting & Chang
 ##' @export
 updateBackGround<-function(TableMatrix)
 {
@@ -64,7 +64,7 @@ updateBackGround<-function(TableMatrix)
 ##' @title Update location of tetriminos
 ##' @param gp plot object which contian current backgroup
 ##' @param tetromino the matrix indicates the location of dropping tetromino
-##' @author Tingting
+##' @author Tingting & Chang
 ##' @export
 UpdateTable<-function(gp, tetromino)
 {

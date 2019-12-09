@@ -16,5 +16,5 @@ Rotate the dropping tetromino.
 This function will rotate the dropping tetromino.
 }
 \author{
-Tingting
+Tingting & Chang
 }

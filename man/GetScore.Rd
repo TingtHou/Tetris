@@ -16,5 +16,5 @@ Check if the player will win points
 This function will check if any lines are filled by same color and player will win 10 points
 }
 \author{
-Tingting
+Tingting & Chang
 }

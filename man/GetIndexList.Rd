@@ -16,5 +16,5 @@ Get (x,y) for squares in a tetromino which should be colored.
 This function will write a 3x3 matrix as a specific shape tetromino.
 }
 \author{
-Tingting
+Tingting & Chang
 }
